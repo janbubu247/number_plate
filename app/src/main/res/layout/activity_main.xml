@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/black_shade_1"
+tools:context=".MainActivity"
+xmlns:app="http://schemas.android.com/apk/res-auto"> <!-- Set background image -->
+
+<ImageView
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:layout_centerHorizontal="true"
+    android:src="@drawable/scanner"
+    android:layout_marginTop="70dp"
+    android:id="@+id/idIVLogo"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/idIVLogo"
+    android:layout_centerHorizontal="true"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginEnd="20dp"
+    android:id="@+id/idTVHead"
+    android:layout_marginBottom="10dp"
+    android:gravity="center"
+    android:text="Welcome to Data Hub"
+    android:textAlignment="center"
+    android:textColor="@color/yellow"
+    android:textSize="18sp"
+    android:textStyle="bold"/>
+
+<Button
+    android:id="@+id/idBtnCapture"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/idTVHead"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="51dp"
+    android:layout_marginEnd="20dp"
+    android:background="@drawable/button_back"
+    android:text="Capture Image"
+    android:textAllCaps="false"
+    app:backgroundTint="@color/yellow" />
+<Button
+    android:id="@+id/idBtnDBS"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/idBtnCapture"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="51dp"
+    android:layout_marginEnd="20dp"
+    android:background="@drawable/button_back"
+    android:text="Write Plate Number"
+    android:textAllCaps="false"
+    app:backgroundTint="@color/yellow" />
+
+<Button
+    android:id="@+id/idBtnDBA"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/idBtnDBS"
+    android:layout_marginStart="80dp"
+    android:layout_marginTop="119dp"
+    android:layout_marginEnd="80dp"
+    android:background="@drawable/button_back"
+    android:text="New Plate Number"
+    android:textAllCaps="false"
+    app:backgroundTint="@color/yellow" /><!-- Adjust marginTop as needed -->
+
+</RelativeLayout>

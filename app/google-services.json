@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "773028278401",
+    "firebase_url": "https://datacop-6d49a-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "datacop-6d49a",
+    "storage_bucket": "datacop-6d49a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773028278401:android:8c377cea8b07fbed705d80",
+        "android_client_info": {
+          "package_name": "com.example.finalproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNy8FZa-Q43AVWO6S41s6KnioW_0sWTjk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
